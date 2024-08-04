@@ -5,10 +5,14 @@ export default function MainNav() {
     <nav className="">
       <ul className="flex gap-6 font-light">
         <li>
-          <Link href="/login">Login</Link>
+          <Link scroll={false} href="/login">
+            Login
+          </Link>
         </li>
         <li>
-          <Link href="/register">Register</Link>
+          <Link scroll={false} href="/register">
+            Register
+          </Link>
         </li>
       </ul>
     </nav>

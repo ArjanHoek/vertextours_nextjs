@@ -4,10 +4,14 @@ import Container from "../container";
 
 export default function PageHeader() {
   return (
-    <header className="bg-green-800 text-white h-16 flex items-center fixed w-full top-0">
+    <header className="bg-green-950 text-white h-16 flex items-center fixed w-full top-0">
       <Container>
         <div className="flex items-center justify-between">
-          <Link className="text-white font-bold text-xl" href="/">
+          <Link
+            scroll={false}
+            className="text-white font-bold text-xl"
+            href="/"
+          >
             Vertex Tours
           </Link>
           <MainNav />
